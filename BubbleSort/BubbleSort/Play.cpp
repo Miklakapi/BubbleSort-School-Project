@@ -74,7 +74,7 @@ Play::Type Play::run(RenderWindow& window) {
 		string sSeconds = to_string(seconds);
 		if (seconds < 10) sSeconds = "0" + sSeconds;
 
-		int miliseconds = int(int(clock.getElapsedTime().asMicroseconds()) % 1000 / 100);
+		int miliseconds = int(int(clock.getElapsedTime().asMicroseconds()) % 100);
 		string sMiliseconds = to_string(miliseconds);
 
 		textClock.setString("Clock: " + sMinutes + " : " + sSeconds + " : " + sMiliseconds);
