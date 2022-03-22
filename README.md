@@ -20,7 +20,7 @@ Project is created with:
 
 ## Setup
 To run this project, run:
-```/Bubble Sort/Release/Bubble Sort.exe```
+```/BubbleSort/Release/BubbleSort.exe```
 
 ## Control
 - `Esc` - Back
